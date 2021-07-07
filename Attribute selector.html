@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Attribute selector</title>
+	<style>
+		input[type='text']:focus
+		
+		{
+			color: white;
+			background: black;
+		}
+		input[type='password']:focus
+		{
+			color: purple;
+			background: white;
+		}
+		input[type='submit']
+		{
+			color: green;
+		}
+		#abc
+		{
+			position: relative;
+			top: 10px;
+			left: 1250px;
+		}
+
+	</style>
+</head>
+<body>
+	<form id="abc">
+		<table>
+			<tr>
+				<td><label>user name</label></td>
+				<td><input type="text"></td>
+			</tr>
+			<tr>
+				<td><label>password</label></td>
+				<td><input type="password"></td>
+			</tr>
+			<tr>
+				<td><input type="submit"></td>
+			</tr>
+		</table>
+	</form>
+
+</body>
+</html>

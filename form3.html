@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		body
+		{
+margin: 100px 0px 0px 500px
+		}
+		.abc
+		{
+			background-image: url(../IMAGES/background.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			box-shadow: 0px 0px 10px green;
+
+		}
+	</style>
+	
+</head>
+<body>
+<table border="1" align="centre" class="abc">
+	<tr>
+		<td>
+	<div >
+		<h1>The coffe House</h1>
+		<h4>Order Form</h4>
+	</div>
+	<form>
+	<table align="centre" cellspacing="10" class="abc">
+		<tr>
+			<td><label>Coffe:</label></td>
+			<td><input list="list" placeholder="...Select Coffe..." align="centre"></td>
+			<datalist id="list">
+				<option>Chocolate</option>
+				<option>Cold</option>
+			</datalist>
+		</tr>
+		<tr>
+			<td><label>Type:</label></td>
+			<td><input type="radio" name="r1">Regular</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td ><input type="radio" name="r1">Decaffeinted</td>
+		</tr>
+		<tr>
+			<td><label>Quantity(in pounds):</label></td>
+			<td><input type="number"></td>
+		</tr>
+		<tr>
+			<td><label>Name:</label></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><label>E-mail address:</label></td>
+			<td><input type="E-mail"></td>
+		</tr>
+		<tr>
+			<td><label>Telephone#:</label></td>
+			<td><input type="number"></td>
+		</tr>
+		<tr>
+			<td><label>Address:</label></td>
+			<td><input type="address"></td>
+		</tr>
+		<tr>
+			<td><label>City:</label></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><label>State:</label></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><label>Zip:</label></td>
+			<td><input type="number"></td>
+		</tr>
+		<tr>
+			<td><input type="submit"></td>
+			<td><input type="reset"></td>
+		</tr>
+	</table>
+	</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

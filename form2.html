@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		.abc
+		{
+			color: white;
+		 background-image: url(../IMAGES/trees.jpg);
+		 background-repeat: no-repeat;
+		 border-radius: 10px;
+		 box-shadow: 0px 0px 10px green;
+
+
+
+		}
+	</style>
+</head>
+<body>
+	<table border="1" align="center" class="abc">
+		<tr>
+			<td>
+	    <div align="center">
+		<h2>Student Name:Vamsi</h2>
+		<h2>Student Id:OEWE4</h2>
+	</div>
+	<hr>
+	<h2 align="center" class="abc">Registration Form </h2>
+	<form>
+		<table  align="center" cellspacing="20" class="abc">
+		<tr>
+			<td><label>Name</label></td>
+			<td><input type="text"></td>
+			<td><label>CNIC</label></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><label>Course</label></td>
+			<td><input type="text"></td>
+			<td><label>Session</label></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><label>Email</label></td>
+			<td><input type="text"></td>
+			<td><label>Password</label></td>
+			<td><input type="text"></td>
+		</tr>
+		<tr>
+			<td><label>Address</label></td>
+			<td><input type="Address"></td>
+		</tr>
+		<tr>
+			<td><label>Gender</label></td>
+			<td><input type="radio" name="r1">Male</td>
+			<td><input type="radio" name="r1">Female</td>
+		</tr>
+		<tr>
+			<td><label>City</label></td>
+			<td><input list="list" placeholder="......Select......" style="text-align: center;"></td>
+			<datalist id="list">
+				<option>Nellore</option>
+				<option>Gudur</option>
+				<option>kavali</option>
+				<option>ongol</option>
+			</datalist>
+		</tr>
+		<tr>
+			<td><input type="radio" name="r2"></td>
+			<td><label>New Student</label></td>
+			<td><input type="radio" name="r2"></td>
+			<td><label>Contuning Student</label></td>
+		</tr>
+		<tr>
+			<td><input type="Submit"></td>
+			<td><input type="reset"></td>
+		</tr>
+
+	    </table>
+	</form>
+</td>
+</tr>
+</table>
+</body>
+</html>

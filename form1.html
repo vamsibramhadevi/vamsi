@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<style>
+		body
+		{
+background-image: url(../IMAGES/b1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+background-attachment: fixed;
+		}
+		form fieldset
+		{
+			border: 3px solid orange;
+			border-radius: 0px 20px 0px 20px;
+			background-color: cyan;
+			box-shadow: 0px 0px 10px green;
+		}
+		fieldset legend
+		{
+			border:3px solid black;
+			border-radius: inherit;
+			background-image: url(../IMAGES/background.jpg);
+			box-shadow: 0px 0px 10px green;
+
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Personal Information</legend>
+				<table>
+					<tr>
+						<td><label>First Name</label></td>
+						<td><input type="text"></td>
+						<td><label>Middle Name</label></td>
+						<td><input type="text"></td>
+						<td><label>Last Name</label></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><label>Fathers Name</label></td>
+						<td><input type="text"></td>
+						<td><label>Mothers Name</label></td>
+						<td><input type="text"></td>
+					</tr>
+					<tr>
+						<td><label>Current Address</label></td>
+						<td><input type="Address"></td>
+						<td><label>Permanent Address</label></td>
+						<td><input type="Address"></td>
+					</tr>
+					<tr><td>Phone Numbers:-</td></tr>
+					<tr>
+						<td><label>Mobile Number</label></td>
+						<td><input type="Phone"></td>
+						<td><label>Tell Number</label></td>
+						<td><input type="Phone"></td>
+					</tr>
+					<tr>
+						<td><label>Date of Birth</label></td>
+						<td><input type="Date"></td>
+					</tr>
+					<tr>
+						<td><label>Email Id</label></td>
+						<td><input type="Email"></td>
+					</tr>
+					<tr>
+						<td><label>Gender</label></td>
+						<td><input type="radio" name="r1">Male</td>
+						<td><input type="radio" name="r1">Female</td>
+					</tr>
+					<tr>
+						<td><label>Hobbies</label></td>
+						<td><input type="checkbox">Playing Games</td>
+						<td><input type="checkbox">Reading Books</td>
+						<td><input type="checkbox">innovative</td>
+					</tr>
+					<tr>
+						<td><label>Nationality</label></td>
+						<td><input list="list" placeholder="...Select..."><datalist id="list">
+							<option>India</option>
+							<option>UK</option>
+							<option>US</option>
+							<option>China</option>
+							<option>Russia</option>
+							<option>France</option>
+							<option>Spain</option>
+						</datalist></td>
+					</tr>
+					<tr>
+						<td><label>Maritical Status</label></td>
+						<td><input type="radio" name="r2">Married</td>
+						<td><input type="radio" name="r2">Unmarried</td>
+					</tr>
+					<tr>
+						<td><label>PanCard</label></td>
+						<td><input type="text"></td>
+						<td><label>AadharCard</label></td>
+						<td><input type="Number"></td>		
+					</tr>
+					<tr>
+						<td><label>Highest Qualification</label></td>
+						<td><input type="text"></td>
+						<td><label>Year of Passing</label></td>
+						<td><input type="Date"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Educational Details</legend>
+				<table>
+					<tr>
+						<td><label>S.No</label></td>
+						<td><label>Qualification</label></td>
+						<td><label>Institute/University</label></td>
+						<td><label>Year of Passing</label></td>
+						<td><label>Marks(%)</label></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="Date"></td>
+						<td><input type="Number"></td>
+					</tr>	
+						<td>2</td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="Date"></td>
+						<td><input type="Number"></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="Date"></td>
+						<td><input type="Number"></td>
+					</tr>
+				</table>
+			</fieldset>	
+		</form>
+	</div>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Work Experience</legend>
+				<table>
+					<tr>
+						<td><label>S.No</label></td>
+						<td><label>Company</label></td>
+						<td><label>Role/Work</label></td>
+						<td><label>Experience</label></td>
+						<td><label>From Date</label></td>
+						<td><label>To Date</label></td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="Date"></td>
+						<td><input type="Date"></td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="Date"></td>
+						<td><input type="Date"></td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="text"></td>
+						<td><input type="Date"></td>
+						<td><input type="Date"></td>
+					</tr>					
+				</table>
+			</fieldset>
+		</form>
+	</div>
+	<div>
+		<form>
+			<fieldset>
+				<legend>Other Details</legend>
+				<table>
+					<tr>
+						<td><label>Type of Employee</label></td>
+						<td><input type="radio" name="r3">Permanent</td>
+						<td><input type="radio" name="r3">Contract</td>
+						<td><input type="radio" name="r3">Others</td>
+					</tr>
+					<tr>
+						<td><label>Are you Ready To Relocate?</label></td>
+						<td><input type="radio" name="r4">Yes</td>
+						<td><input type="radio" name="r4">No</td>	
+					</tr>
+					<tr>
+						<td><input type="checkbox"></td>
+						<td><label>I am here by declaring the above information is true according my knowledge.</label></td>
+					</tr>
+					<tr align="center">
+						<td><input type="submit"></td>
+						<td><input type="reset"></td>
+					</tr>
+				</table>
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
